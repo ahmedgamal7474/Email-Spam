@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 
-model = pickle.load(open('E:\Project\email_class.pkl', 'rb'))
-vectorizer = pickle.load(open('E:\Project\count_vect', 'rb'))
+model = pickle.load(open('email_class.pkl', 'rb'))
+vectorizer = pickle.load(open('count_vect', 'rb'))
 
 st.title("📧 Email Spam Classifier")
 st.write("Classify emails as Spam or Not Spam using a Naive Bayes Classifier.")
